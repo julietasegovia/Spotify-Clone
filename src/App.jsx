@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/Spotify-Clone/">
+    <HashRouter basename="/Spotify-Clone/">
       <div className='h-screen bg-black'>
       <div className='h-[90%] flex'>
         <Sidebar />
@@ -14,7 +14,7 @@ const App = () => {
       </div>
       <Player />
     </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
