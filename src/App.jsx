@@ -1,19 +1,24 @@
-import React from "react"
+import React, { useContext } from "react"
 import Sidebar from "./components/Sidebar.jsx"
 import Player from "./components/Player.jsx"
 import Display from "./components/Display.jsx"
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';  // Use HashRouter, NO basename
+import { PlayerContext } from "./context/PlayerContext.jsx";
 
 const App = () => {
+
+  const {audioRef} = useContext(PlayerContext)
+
   return (
-    <HashRouter basename="/Spotify-Clone/">
+    <HashRouter>
       <div className='h-screen bg-black'>
-      <div className='h-[90%] flex'>
-        <Sidebar />
-        <Display />
+        <div className='h-[90%] flex'>
+          <Sidebar />
+          <Display />
+        </div>
+        <Player />
+        <audio ref={audioRef} preload='auto'></audio>
       </div>
-      <Player />
-    </div>
     </HashRouter>
   )
 }

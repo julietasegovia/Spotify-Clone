@@ -1,3 +1,8 @@
+# Spotify-Clone
+Built with React, Vite and Tailwind I tried to replicate the Spotify Web Player as detailed as possible. I made this one mostly to improve my styling skills.
+I took 8 of my favorite songs and added to the tracklist. Every playlist is the same, all have the same 8 songs. You can use the arrow keys to scroll horizontally through both the playlists list and the tracks list while hovering your cursor over it.
+You can click on the playlists to open them and on the songs to play it.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,4 +19,4 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Spotify-Clone
+

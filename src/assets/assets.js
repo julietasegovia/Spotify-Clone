@@ -30,11 +30,15 @@ import img5 from './img5.png'
 import img6 from './img6.jpg'
 import img7 from './img7.png'
 import img8 from './img8.jpg'
+import img9 from './img9.jpg'
+import img10 from './img10.jpg'
+import img11 from './img11.jpg'
 import img12 from './img12.png'
 import img13 from './img13.jpg'
 import img14 from './img14.png'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
+import img17 from './img17.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
@@ -76,22 +80,50 @@ export const albumsData = [
         id:0,
         name: "Top 50 Global",
         image: img8,
-        desc:"Your weekly update of the most played tracks",
+        desc:"Top 50 most played tracks globally",
         bgColor:"#2a4365"
     },
     {   
         id:1,
+        name: "LoFi Study Beats",
+        image: img10,
+        desc:"Some chill tracks to focus",
+        bgColor:"#3c7969"
+    },
+    {   
+        id:2,
         name: "Trending Global",
         image: img16,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#44337a"
     },
     {   
-        id:2,
+        id:3,
+        name: "Sad Hour",
+        image: img9,
+        desc:"For those loomy days",
+        bgColor:"#335a6a"
+    },
+    {   
+        id:4,
         name: "Happy Favorites",
         image: img15,
-        desc:"Your weekly update of the most played tracks",
+        desc:"A joyful and upbeat playlist",
         bgColor:"#744210"
+    },
+    {   
+        id:5,
+        name: "LoFi Beats",
+        image: img11,
+        desc:"Relax and enjoy",
+        bgColor:"#5b325e"
+    },
+    {   
+        id:6,
+        name: "Mega Hits",
+        image: img17,
+        desc:"The music of the moment",
+        bgColor:"#403041"
     }
 ]
 
@@ -106,7 +138,7 @@ export const songsData = [
     },
     {
         id:1,
-        name: "Charmless Man - 2012 Remaster",
+        name: "Charmless Man",
         image: img2,
         file:song2,
         desc:"Blur • The Great Escape",
